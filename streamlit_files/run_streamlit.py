@@ -13,8 +13,9 @@ file = "app_plots.py"
 file = "app_profiler.py"
 file = "app_profiler_menus.py"
 
-pressed = st.button("Press Me")
-print(pressed)
+#pressed = st.button("Press Me")
+#print(pressed)
 subprocess.Popen(
     ["streamlit", "run", file], shell=True
+
 )
